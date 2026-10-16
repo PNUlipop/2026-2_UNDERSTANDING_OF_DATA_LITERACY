@@ -1,0 +1,237 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>세대별 뉴스 소비 경로 차이</title><link rel="stylesheet" href="styles/deck.css"></head><body>
+<main id="viewport"><div id="deck" aria-label="세대별 뉴스 소비 경로 차이 슬라이드덱">
+<section class="slide active pearl" id="S01" data-page="1" data-part="main" data-title="세대별 뉴스 소비 경로 차이" data-notes="2025 언론수용자 조사 원자료를 활용한 데이터리터러시의이해 중간 대체 과제입니다. 표지 이미지는 Google Flow에서 생성한 콘셉트 이미지이며 실제 조사 장면이 아닙니다. 발표자는 202406228 김경현이며, 데이터리터러시의이해 중간 대체 과제입니다.">
+<img class="hero-photo" src="../04_assets/images/flow-news-devices.jpg" alt="신문, TV, 스마트폰을 함께 놓은 AI 생성 콘셉트 이미지"><div class="cover-copy"><p class="eyebrow" style="font-size:15px;letter-spacing:.06em;line-height:1.6">UNDERSTANDING OF DATA LITERACY<br>2025 NEWS AUDIENCE SURVEY</p><h1>세대별<br>뉴스 소비<br><span class="accent">경로 차이</span></h1><p class="lead">2025 언론수용자 조사로 살펴본<br>연령대별 뉴스 이용</p></div><p class="cover-bottom"><strong style="font-weight:600">202406228 김경현</strong><br>데이터리터러시의이해 중간 대체 과제<br>연령대별 뉴스 이용 경로 비교</p><p class="hero-credit">콘셉트 이미지: Google Flow 생성</p></section>
+<section class="slide" id="S02" data-page="2" data-part="main" data-title="분석 질문과 데이터" data-notes="전국 만 19세 이상 6,000명을 대상으로 한 대면면접조사입니다. 조사 기간은 2025년 7월 8일부터 9월 2일까지입니다. 여기서 세대는 출생 코호트가 아니라 현재 연령대 비교를 뜻합니다. 첫 집단은 19세를 포함한 19~29세입니다. 원자료의 실제 응답자 수와 가중 사례수는 다르므로 이 덱에서 n은 비가중 응답자 수로 표시합니다."><p class="eyebrow">01 / RESEARCH DESIGN</p><h2>어디서 뉴스를 보는가?<br><span class="accent">연령대를 나누면 답이 달라질까?</span></h2><div class="method-layout"><div><div class="big number">6,000<span class="unit">명</span></div><p class="metric-label">전국 만 19세 이상 성인</p><div class="rule"></div><p>2025. 7. 8. ~ 9. 2.<br>태블릿을 활용한 대면면접조사</p></div><div><h3>비교 기준</h3><p style="margin-top:18px">19–29세, 30대, 40대, 50대,<br>60대, 70세 이상</p><div class="rule"></div><p>연령별 비율에 조사 가중치 WT 적용<br>‘세대’는 현재 연령대의 차이를 의미</p></div></div><div class="source">출처: 한국언론진흥재단, 『2025 언론수용자 조사』, p.48. 원자료 DQ3, WT.</div></section>
+<section class="slide" id="S04" data-page="3" data-part="main" data-title="전체 주 이용 경로" data-notes="전체 응답자의 주 이용 경로 비율입니다. TV 48.0%, 포털/검색엔진 33.0%, 온라인 동영상 5.6%입니다. 기타는 Q84에서 TV, 포털/검색, 온라인 동영상, 비이용을 제외한 모든 경로의 합입니다. 그래프는 0~100% 공통 축을 사용합니다."><p class="eyebrow">02 / OVERALL</p><h2>전체에서는 <span class="accent">TV가 48.0%</span></h2><div class="split"><div class="aside"><div class="big number">81.0<span class="unit">%</span></div><p>TV와 포털·검색을<br>주 이용 경로로 고른 비율의 합</p><p>전체 비율만으로는<br>연령대별 차이가 보이지 않습니다.</p></div><div class="chart" id="overall-chart"></div></div><div class="source">출처: 원자료 Q84, WT 재계산. 보고서 p.70, 표 4-2·그림 4-7과 대조. 단위: %, 전체 n=6,000.</div></section>
+<section class="slide" id="S06" data-page="4" data-part="main" data-title="연령별 주 이용 경로 구성" data-notes="주 이용 경로를 TV, 포털/검색, 온라인 동영상, 기타 경로, 비이용으로 재분류했습니다. 기타에는 종이신문, SNS, 숏폼, 앱 등 나머지 응답을 모두 포함합니다. 한 연령집단에서 원래 응답의 가중 비율 합은 100%이며, 표시된 소수점 반올림으로 합계가 다를 수 있습니다."><p class="eyebrow">03 / ROUTE MIX</p><h2>연령이 높은 집단일수록<br>TV 중심의 구성이 뚜렷</h2><div class="legend"><span style="--c:#7a7a7a">TV</span><span style="--c:#0066cc">포털·검색</span><span style="--c:#74b7f7">온라인 동영상</span><span style="--c:#c4c4c9">기타 경로</span><span style="--c:#e9e9ed">비이용</span></div><div class="chart chart-wide" id="stacked-chart"></div><div class="source">출처: 원자료 Q84, WT. 단일응답 재분류, 각 연령집단 합계 100%. 기타 경로는 TV·포털·동영상·비이용 외 모든 경로.</div></section>
+<section class="slide dark" id="S07" data-page="5" data-part="main" data-title="TV와 포털의 차이" data-notes="Manim으로 만든 덤벨 차트 영상입니다. 같은 Q84 데이터를 사용합니다. TV를 회색, 포털을 파랑으로 표시했습니다. 50대의 TV와 포털 차이는 반올림 전 수치로 27.6%포인트입니다. 원자료의 55.908012… − 28.352686… = 27.555326…을 반올림한 값이며 보고서 표시값 55.9 − 28.4의 차이 27.5와는 반올림 순서가 다릅니다. 영상 아래의 값은 백분율 상대변화가 아닌 비율 간 차이입니다."><p class="eyebrow">04 / TV & PORTAL</p><h2>40대까지는 포털,<br><span class="accent">50대부터는 TV가 1위</span></h2><div class="split" style="margin-top:20px;grid-template-columns:320px 1fr"><div class="aside"><h3>TV 55.9%<br>포털·검색 28.4%</h3><p>50대의 TV·포털 격차는<br>27.6%포인트입니다.</p><div class="legend gap-legend" aria-label="그래프 범례"><span style="--c:#a1a1a6">TV</span><span style="--c:#2997ff">포털·검색</span></div></div><div><video class="manim-video" muted playsinline preload="auto" src="../04_assets/charts/news-routes.mp4" aria-label="연령대별 TV와 포털 주 이용률의 Manim 애니메이션"></video><p class="manim-sub">연령대별 주 이용률 비교 · 공통 축 0–100%</p></div></div><div class="source">출처: 원자료 Q84, WT. 가중 비율 차이, 반올림 전 계산. Manim으로 시각화.</div></section>
+<section class="slide dark" id="S03" data-page="6" data-part="main" data-title="주 이용과 주간 이용의 차이" data-notes="앞선 화면은 뉴스를 가장 많이 이용한 경로 하나를 비교했습니다. 전체의 48.0%가 TV를 주 이용 경로로 선택했습니다(Q84). 반면 지난 일주일간 TV 뉴스/시사 프로그램을 한 번 이상 시청한 비율은 81.4%입니다(Q13). 두 값은 전체 응답자 기준 가중 비율이지만 서로 다른 질문의 결과입니다. Q13은 모바일·컴퓨터를 통한 TV 뉴스 시청도 포함하므로 TV 수상기 이용률로 해석하면 안 됩니다. 다음 화면부터는 각 경로의 주간 뉴스 이용 여부를 비교합니다. 개인별 이용 중복은 별도 교차분석 화면에서 확인합니다."><p class="eyebrow">05 / TWO MEASURES</p><h2>가장 많이 쓰는 경로와<br>이용한 적 있는 경로는 다릅니다</h2><div class="two-measures"><div class="measure"><h3>TV가 주 이용 경로</h3><p>가장 많이 이용한 뉴스 경로는?<br>문84, 경로 하나만 선택</p><div style="margin-top:38px"><span class="number accent" data-count="48.03219210733019">48.0</span><span class="unit">%</span></div><p>TV를 가장 많이 쓴 뉴스 경로로 선택</p></div><div class="measure"><h3>TV 뉴스·시사 주간 시청</h3><p>지난 1주일간 TV 뉴스를 시청했는가?<br>문13, 시청 여부 응답</p><div style="margin-top:38px"><span class="number accent" data-count="81.35307593196471">81.4</span><span class="unit">%</span></div><p>TV 뉴스·시사 프로그램을 한 번 이상 시청</p></div></div><p class="lead" style="margin-top:40px">둘 다 전체 응답자 기준입니다.<br>이제 각 경로의 지난 1주일 뉴스 이용률을 비교합니다.</p><div class="source">출처: 보고서 p.70, 문84 · p.83, 문13. 전체 응답자 기준 가중 %.<br>문13의 TV 뉴스·시사 시청은 TV 수상기뿐 아니라 모바일·컴퓨터를 통한 시청도 포함.</div></section>
+<section class="slide pearl" id="S08" data-page="7" data-part="main" data-title="주간 뉴스 이용률 히트맵" data-notes="앞서 구분한 주간 뉴스 이용률을 여섯 연령집단과 여섯 경로에 적용한 히트맵입니다. 각 칸은 해당 연령집단 전체를 분모로 한 가중 이용률입니다. 경로별 응답은 중복될 수 있어 가로 합계는 100%가 아닙니다. 다만 이 표는 경로별 비율을 나란히 보여주는 것으로, 같은 개인이 어떤 경로를 함께 이용했는지는 이 표만으로 알 수 없습니다. 포털 뉴스는 모바일 또는 PC 이용을 포함하며, TV는 모바일·컴퓨터를 통한 TV 뉴스/시사 시청도 포함합니다. 다음 화면에서는 동영상과 숏폼의 연령 차이에 초점을 맞춥니다."><p class="eyebrow">06 / WEEKLY REACH</p><h2>지난 1주일간 이용한<br>뉴스 경로를 비교하면</h2><div class="heat" id="heatmap"></div><img class="heat-source" id="seaborn-image" hidden src="../04_assets/charts/weekly-heatmap.png" alt="Seaborn으로 그린 연령별 주간 뉴스 이용률 히트맵"><div class="heat-scale"><span>0%</span><i style="background:#eaf2fb"></i><i style="background:#b2d1ef"></i><i style="background:#6ea6db"></i><i style="background:#0066cc"></i><span>100%</span><span style="margin-left:20px">색이 진할수록 이용률이 높음</span></div><button class="toggle" id="seaborn-toggle" style="margin-top:16px">Seaborn 분석 차트 보기</button><div class="source">출처: 원자료 Q13·31·46·53·61·73, WT. 보고서 p.83·96·110·116·122·130. 가중 %, 경로 간 중복 가능.<br>TV는 모바일·컴퓨터를 통한 TV 뉴스/시사 프로그램 시청도 포함(문13).</div></section>
+<section class="slide" id="S09" data-page="8" data-part="main" data-title="동영상과 숏폼 뉴스 이용" data-notes="온라인 동영상 플랫폼 뉴스 이용률은 40대 37.4%, 숏폼 뉴스 이용률은 30대 34.3%가 각 경로에서 가장 높습니다. 두 문항은 중복 이용할 수 있어 더해서 이용자 수를 계산하면 안 됩니다. 이 결과만으로 젊은 세대가 동영상 뉴스를 선호하는 이유를 설명할 수는 없습니다."><p class="eyebrow">07 / VIDEO NEWS</p><h2>숏폼 뉴스는 <span class="accent">30대에서 가장 높음</span></h2><div class="legend"><span style="--c:#0066cc">숏폼 뉴스</span><span style="--c:#7a7a7a">온라인 동영상 뉴스</span></div><div class="chart chart-wide" id="video-lines"></div><div class="source">출처: 원자료 Q53·61, WT. 보고서 p.116·122. 지난 일주일 이용률, 각 연령집단 전체 기준, 단위: %.</div></section>
+<section class="slide pearl" id="S10" data-page="9" data-part="main" data-title="동영상과 숏폼의 중복 이용" data-notes="앞 화면의 온라인 동영상과 숏폼 이용률에는 같은 응답자가 겹쳐 포함될 수 있습니다. 이 화면은 보고서의 직접 수록 표가 아닌 공개 원자료 Q53·Q61의 추가 교차분석입니다. 동일 응답자의 두 문항을 동영상만, 둘 다, 숏폼만, 둘 다 비이용으로 분류했습니다. 모든 비율의 분모는 해당 연령집단 전체입니다. 30대는 둘 중 하나 이상 이용한 비율이 47.9%, 두 문항 모두 이용 응답한 비율은 21.9%입니다. 연령 버튼을 바꾸면 각 집단의 이용 조합을 비교할 수 있습니다. 두 문항의 응답 조합이지 뉴스 형식이 완전히 분리됐다는 뜻은 아닙니다. 단순 합계는 중복 이용자를 두 번 세므로 합집합 계산에는 중복을 한 번 뺍니다."><p class="eyebrow">08 / OVERLAPPING AUDIENCES</p><h2>동영상·숏폼 뉴스의<br>중복 이용도 연령별로 다름</h2><div class="selector" id="age-selector" aria-label="중복 이용 연령대 선택"></div><div class="overlap-grid"><div><p class="metric-label" id="overlap-age"></p><div class="overlap-total number accent" id="overlap-union"></div><p class="lead">둘 중 하나 이상 이용</p><div class="chart" id="overlap-bar" style="height:165px;margin-top:20px"></div><div class="legend" id="overlap-legend" style="font-size:16px;gap:14px;margin-top:0"></div></div><div class="overlap-list" id="overlap-details"></div></div><div class="source">출처: 공개 원자료 Q53·61, WT 추가 교차분석(보고서 직접 수록값 아님). 각 연령집단 전체 기준, 단위: %.</div></section>
+<section class="slide" id="S11" data-page="10" data-part="main" data-title="뉴스 비이용 응답" data-notes="Q84의 ‘지난 1주일 동안 위 경로들을 통해 뉴스나 시사정보를 이용한 적 없음’ 응답 비율입니다. 19~29세는 9.5%로 여섯 집단 중 가장 높습니다. 뉴스에 평소 관심이 없다는 뜻이나 모든 뉴스 접촉의 부재로 일반화할 수 없습니다. 다른 문항과의 응답 일관성을 별도 검토한 지표는 아닙니다."><p class="eyebrow">09 / NO NEWS ROUTE REPORTED</p><h2>19–29세의 뉴스 비이용 응답은<br><span class="accent">9.5%</span></h2><div class="split"><div class="aside"><h3>여섯 연령집단 중 최고</h3><p>경로별 이용 차이와 함께<br>뉴스 비이용 응답도<br>연령별로 살펴봅니다.</p><p style="font-size:20px">문84의 지난 1주일 기준 응답</p></div><div class="chart" id="nonuse-chart"></div></div><div class="source">출처: 원자료 Q84=9998, WT. 각 연령집단 전체 기준 가중 비율. 비이용은 문84에서 제시한 경로와 기간에 한정.</div></section>
+<section class="slide dark" id="S12" data-page="11" data-part="main" data-title="생성형 AI를 통한 뉴스 이용" data-notes="결론에 앞서 살펴보는 새로운 뉴스 경로의 보조 사례입니다. 생성형 AI 서비스 뉴스 이용률은 전체 2.1%, 19~29세 3.9%입니다. 앞서 본 TV·포털 중심의 주 이용 경로 분석과 구분해 새로운 경로의 주간 이용 사례로 제시합니다. AI 서비스 일반 이용과 AI를 통한 뉴스 이용은 다른 질문입니다. 70세 이상은 원자료에서 뉴스 이용 응답이 0명이지만 모집단 이용자가 없다고 단정할 수 없습니다."><p class="eyebrow">10 / AI NEWS / ADDITIONAL CASE</p><h2>새로운 뉴스 경로:<br><span class="accent">생성형 AI 이용률 2.1%</span></h2><div class="split"><div class="aside"><h3>19–29세 3.9%</h3><p>기존 뉴스 경로와 함께<br>새로운 경로의 이용 규모도<br>살펴봅니다.</p></div><div class="chart" id="ai-chart"></div></div><div class="source">출처: 원자료 Q73, WT. 보고서 p.130, 그림 4-120·122. 지난 일주일 생성형 AI 뉴스 이용률, 단위: %. 0.0%는 표본 내 관측값.</div></section>
+<section class="slide" id="S13" data-page="12" data-part="main" data-title="분석 결과와 시사점" data-notes="첫째, 주 이용 경로 1위는 40대까지 포털/검색이고 50대부터 TV입니다. 둘째, 숏폼 뉴스 주간 이용률은 30대 34.3%로 여섯 집단 중 가장 높습니다. 이는 현재 연령집단의 기술통계 차이이며 개인이 나이 들면서 경로를 바꾸는 과정이나 인과관계를 확인한 결과가 아닙니다. 데이터리터러시 관점에서는 주 이용 경로와 주간 이용 여부라는 질문의 차이, 분모, 경로 간 이용 중복을 함께 읽어야 한다는 점을 정리합니다."><p class="eyebrow">11 / FINDINGS</p><h2>연령별 경로 차이와<br><span class="accent">이용률을 읽는 기준</span></h2><div class="takeaways"><div><div class="number">40대 / 50대</div><p>40대까지는 포털이 1위<br>50대부터는 TV가 1위</p></div><div><div class="number">34.3<span class="unit">%</span></div><p>30대의 숏폼 뉴스 주간 이용률<br>여섯 연령집단 중 가장 높음</p></div></div><div class="rule"></div><p class="conclusion-line">뉴스 이용률을 비교할 때는<br>질문과 분모, 경로 간 중복 여부를 함께 확인해야 합니다.</p><div class="source">출처: 원자료 Q84·61, WT. 보고서 p.70·122. 주 이용 경로와 주간 이용률은 다른 지표이며, 현재 연령집단의 차이를 비교한 결과.</div></section>
+<section class="slide pearl" id="S14" data-page="13" data-part="main" data-title="분석 방법과 한계" data-notes="AI는 변수 확인, Python 분석 코드, 차트와 HTML 구현, 생성 이미지 제작에 활용했습니다. 결과 수치는 Python으로 계산하고 보고서 표 4-2와 핵심 수치를 대조했습니다. 이 발표는 복합표본 설계 기반 유의성 검정이나 인과 추론을 수행하지 않은 기술통계 분석입니다. 연령과 출생세대 및 생애주기 효과를 구분하지 못합니다."><p class="eyebrow">12 / METHODS & LIMITATIONS</p><h2>재현 가능한 분석과<br>해석의 범위</h2><div class="appendix-grid"><div><h3>분석 방법</h3><p>공개 SAV 원자료 6,000행 사용<br>연령 DQ3, 가중치 WT 적용<br>비율(%) = 해당 응답의 가중치 합 ÷ 집단 가중치 합 × 100</p><div class="rule"></div><h3>AI 활용</h3><p>변수 검토·Python 코드·HTML 구현 보조<br>Seaborn 분석, Manim·Anime.js 애니메이션<br>Google Flow 콘셉트 이미지 생성</p></div><div><h3>해석할 때 주의할 점</h3><ul><li>한 시점의 연령 차이로 세대 변화나 인과관계를 단정할 수 없음</li><li>주 이용 경로와 주간 이용률은 서로 다른 문항</li><li>기술통계 비교이며 유의성 검정은 수행하지 않음</li><li>원자료의 실제 표본 수와 보고서의 가중 사례수는 다름</li></ul><p style="margin-top:24px;font-size:18px">실제 n: 828 / 869 / 1,038 / 1,189 / 1,098 / 978<br>연령집단 순서: 19–29세부터 70세 이상</p></div></div><div class="source">분석 코드: 03_content/analysis/analyze.py. 집계 결과: 04_assets/charts/weighted-results.csv. 원자료는 수정하지 않음.</div></section>
+<section class="slide" id="S15" data-page="14" data-part="main" data-title="참고자료" data-notes="한국언론진흥재단의 2025 언론수용자 조사 공개 자료를 사용했습니다. 제출용 단일 HTML에는 그래프, 집계 데이터, 이미지와 영상이 포함되어 있습니다. 원자료와 보고서 파일은 프로젝트의 00_inbox/fileidDownLoad에 보존했습니다. 발표에서 사용한 값의 정확한 집계 결과와 변수 매핑은 JSON 및 CSV에서 확인할 수 있습니다."><p class="eyebrow">13 / REFERENCES</p><h2>참고자료</h2><div class="reference-list"><p>한국언론진흥재단 (2025). <strong>『2025 언론수용자 조사』</strong><br><small>조사 설계 p.48 · 주 이용 경로 p.70<br>주간 뉴스 이용 p.83·96·110·116·122·130</small></p><p>한국언론진흥재단 (2025). <strong>설문지 겸 코드북, 최종데이터, 통계표</strong><br><small>DQ3, WT, Q84, Q13, Q31, Q46, Q53, Q61, Q73 활용 · 사용자 제공 공개 자료</small></p><p><strong>분석 산출물</strong><br><small>analyze.py / survey-summary.json / weighted-results.csv<br>슬라이드 수치는 원자료 가중 재계산, 보고서 주요 수치와 대조</small></p><p><strong>시각화와 디자인</strong><br><small>Seaborn · Manim Community · Anime.js 3.2.2 (MIT)<br>Apple 스타일: 프로젝트 DESIGN.md · 표지: Google Flow 생성 이미지</small></p></div><div class="source">방향키 / Space: 이동 · R: 애니메이션 다시 보기 · N: 발표자 메모 · F: 전체 화면 · M: 모션 켜기/끄기 · Home / End: 처음 / 끝</div></section>
+</div></main><nav id="toolbar" aria-label="슬라이드 조작"><button id="prev" aria-label="이전 슬라이드">←</button><span id="counter" aria-live="polite"></span><button id="next" aria-label="다음 슬라이드">→</button><button id="replay">다시 보기</button><button id="motion" aria-pressed="true">모션 켜짐</button><button id="notes-btn">메모</button><button id="fullscreen">전체 화면</button><button id="print">인쇄</button></nav><aside class="notes" id="notes" hidden></aside><div id="progress"></div><script id="survey-data" type="application/json">{
+  "n": 6000,
+  "weight_sum": 6000.000000000015,
+  "groups": [
+    {
+      "age": "19–29세",
+      "n": 828,
+      "weighted_n": 885.1857706021128,
+      "main": {
+        "TV": 11.10994605487339,
+        "포털·검색": 56.84869161322092,
+        "온라인 동영상": 7.6602316061486375,
+        "숏폼": 2.561014656228302,
+        "SNS": 3.2512154789500327,
+        "뉴스 비이용": 9.46533604393372
+      },
+      "weekly": {
+        "TV": 48.23835404672735,
+        "포털·검색": 80.54180565155384,
+        "온라인 동영상": 34.58275015963837,
+        "숏폼": 26.533160855320816,
+        "SNS": 16.27225895861625,
+        "생성형 AI": 3.890646355059578
+      },
+      "overlap": {
+        "동영상만": 17.326034980845478,
+        "둘 다": 17.256715178792902,
+        "숏폼만": 9.276445676527906,
+        "둘 다 비이용": 56.140804163833714
+      }
+    },
+    {
+      "age": "30대",
+      "n": 869,
+      "weighted_n": 938.3627273662829,
+      "main": {
+        "TV": 24.86089139502694,
+        "포털·검색": 51.439953067492596,
+        "온라인 동영상": 6.3683157478445205,
+        "숏폼": 2.8874669929229633,
+        "SNS": 2.302729995908914,
+        "뉴스 비이용": 4.1380212191487
+      },
+      "weekly": {
+        "TV": 70.13035337686313,
+        "포털·검색": 81.77977468773608,
+        "온라인 동영상": 35.520628553103315,
+        "숏폼": 34.28546270946794,
+        "SNS": 14.918866763000683,
+        "생성형 AI": 3.6654788474496844
+      },
+      "overlap": {
+        "동영상만": 13.6121966482833,
+        "둘 다": 21.908431904820013,
+        "숏폼만": 12.377030804647918,
+        "둘 다 비이용": 52.10234064224877
+      }
+    },
+    {
+      "age": "40대",
+      "n": 1038,
+      "weighted_n": 1038.1033029696282,
+      "main": {
+        "TV": 37.92191769122404,
+        "포털·검색": 41.814437537835126,
+        "온라인 동영상": 8.00928882982895,
+        "숏폼": 1.0132711393871774,
+        "SNS": 0.3438402904113382,
+        "뉴스 비이용": 1.9395016408159937
+      },
+      "weekly": {
+        "TV": 85.6466663690044,
+        "포털·검색": 79.32517075337765,
+        "온라인 동영상": 37.3627618261282,
+        "숏폼": 28.005453909363137,
+        "SNS": 8.649149696553513,
+        "생성형 AI": 2.466799308898354
+      },
+      "overlap": {
+        "동영상만": 17.526511475476333,
+        "둘 다": 19.83625035065187,
+        "숏폼만": 8.169203558711272,
+        "둘 다 비이용": 54.46803461516053
+      }
+    },
+    {
+      "age": "50대",
+      "n": 1189,
+      "weighted_n": 1165.0045434581293,
+      "main": {
+        "TV": 55.90801227063361,
+        "포털·검색": 28.352686156985573,
+        "온라인 동영상": 5.7198717868525675,
+        "숏폼": 0.5025402945737054,
+        "SNS": 0.08902283215092031,
+        "뉴스 비이용": 1.8825405532497466
+      },
+      "weekly": {
+        "TV": 91.15934951624604,
+        "포털·검색": 70.65930825517381,
+        "온라인 동영상": 34.87570792603764,
+        "숏폼": 26.007497298945875,
+        "SNS": 5.820502653305246,
+        "생성형 AI": 2.4353552722294167
+      },
+      "overlap": {
+        "동영상만": 15.249293754239124,
+        "둘 다": 19.62641417179852,
+        "숏폼만": 6.381083127147353,
+        "둘 다 비이용": 58.743208946814995
+      }
+    },
+    {
+      "age": "60대",
+      "n": 1098,
+      "weighted_n": 1055.194911326901,
+      "main": {
+        "TV": 71.12908512287244,
+        "포털·검색": 14.87070530618907,
+        "온라인 동영상": 3.929347285934491,
+        "숏폼": 0.14476873279816205,
+        "SNS": 0.0,
+        "뉴스 비이용": 2.4113949594706203
+      },
+      "weekly": {
+        "TV": 93.02590810541994,
+        "포털·검색": 56.346959395733464,
+        "온라인 동영상": 24.625579377949343,
+        "숏폼": 15.207052462466509,
+        "SNS": 2.7051723977973765,
+        "생성형 AI": 0.47343451788430835
+      },
+      "overlap": {
+        "동영상만": 13.719821457425251,
+        "둘 다": 10.905757920524088,
+        "숏폼만": 4.30129454194242,
+        "둘 다 비이용": 71.07312608010822
+      }
+    },
+    {
+      "age": "70세 이상",
+      "n": 978,
+      "weighted_n": 918.1487442769601,
+      "main": {
+        "TV": 82.20372582341975,
+        "포털·검색": 7.723060844802612,
+        "온라인 동영상": 1.7726639069617818,
+        "숏폼": 0.35534716033810204,
+        "SNS": 0.0,
+        "뉴스 비이용": 3.2000501377640655
+      },
+      "weekly": {
+        "TV": 94.03621515483145,
+        "포털·검색": 29.50043746652585,
+        "온라인 동영상": 11.886389163527166,
+        "숏폼": 7.145431894305765,
+        "SNS": 1.534366700788316,
+        "생성형 AI": 0.0
+      },
+      "overlap": {
+        "동영상만": 6.741276098443347,
+        "둘 다": 5.1451130650838195,
+        "숏폼만": 2.0003188292219454,
+        "둘 다 비이용": 86.11329200725089
+      }
+    }
+  ],
+  "overall": {
+    "main": {
+      "TV": 48.03219210733019,
+      "포털·검색": 32.96868544081891,
+      "온라인 동영상": 5.584743393446164,
+      "숏폼": 1.1821379594869177,
+      "SNS": 0.9165632372624176,
+      "뉴스 비이용": 3.6584551200712765
+    },
+    "weekly": {
+      "TV": 81.35307593196471,
+      "포털·검색": 66.54041734699496,
+      "온라인 동영상": 30.043069369824405,
+      "숏폼": 22.939559525461288,
+      "SNS": 8.071027417141979,
+      "생성형 AI": 2.1301752803117626
+    }
+  },
+  "overall_main_full": {
+    "종이신문": 1.5710439803907132,
+    "텔레비전": 48.03219210733019,
+    "라디오": 0.5096461267257653,
+    "인터넷 포털/검색엔진(네이버, 다음, 구글 등)": 32.96868544081891,
+    "언론사 홈페이지(동아닷컴 등 언론사닷컴, 오마이뉴스 등)": 0.29659770236506344,
+    "언론사 앱(조선일보 앱, YTN 앱 등)": 0.5076839966448482,
+    "뉴스 모음 앱(구글 뉴스, 모두의 신문, 뉴스매일 등)": 1.2194990964069405,
+    "블로그(네이버 블로그, 티스토리 등)": 0.33031284866699834,
+    "온라인 카페 및 커뮤니티(네이버 카페, 다음 카페 등)": 1.8882554174492912,
+    "SNS(밴드, 페이스북, 인스타그램, 카카오스토리 등)": 0.9165632372624176,
+    "메신저 서비스(카카오톡, 라인, 네이트온, 페이스북메신저 등)": 0.31519809863126436,
+    "온라인 동영상 플랫폼(유튜브, 네이버TV, 카카오TV, 숲(SOOP, 구 아프리카TV) 등)": 5.584743393446163,
+    "숏폼(틱톡, 유튜브 쇼츠, 인스타그램 릴스 등)": 1.1821379594869177,
+    "생성형 인공지능 서비스(챗 GPT, MS 코파일럿, 네이버 클로바 등)": 0.0839095391746469,
+    "인공지능 스피커(클로바, 카카오 미니헥사, NUGU, GIGA Genie 등)가 제공하는 뉴스 서비스": 0.2507681553691336,
+    "뉴스레터(언론사 뉴스레터, 뉴닉, 어피티 등)": 0.6843077797594539,
+    "지난 1주일 동안 위 경로들을 통해 뉴스나 시사정보를 이용한 적 없음": 3.658455120071276
+  },
+  "method": {
+    "weight": "WT",
+    "age": "DQ3",
+    "main": "Q84",
+    "weekly": {
+      "TV": "Q13=1",
+      "포털·검색": "Q31_1=1 OR Q31_2=2",
+      "온라인 동영상": "Q53=1",
+      "숏폼": "Q61=1",
+      "SNS": "Q46=1",
+      "생성형 AI": "Q73=1"
+    },
+    "population": "전국 만 19세 이상 성인",
+    "fieldwork": "2025-07-08 ~ 2025-09-02"
+  }
+}</script><script src="vendor/anime.min.js"></script><script src="scripts/deck.js"></script></body></html>

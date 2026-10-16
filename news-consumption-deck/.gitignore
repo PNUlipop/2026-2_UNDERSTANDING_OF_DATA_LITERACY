@@ -1,0 +1,4 @@
+04_assets/charts/manim/
+03_content/analysis/*_extracted.txt
+03_content/analysis/report_page_*.txt
+__pycache__/
