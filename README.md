@@ -6,6 +6,7 @@
 
 | 구분 | 주제 | 과제 폴더 | 제출용 HTML |
 | --- | --- | --- | --- |
+| 중간 대체 과제 | 세대별 뉴스 소비 경로 차이 — 주제 설명과 데이터분석 계획 | [뉴스 분석 계획서](news-analysis-plan/README.md) | [계획서 슬라이드덱](news-analysis-plan/news-analysis-plan.html) |
 | 기말 대체 과제 | 세대별 뉴스 소비 경로 차이 | [뉴스 과제](news-consumption-deck/README.md) | [뉴스 슬라이드덱](news-consumption-deck/06_exports/news-consumption-2025.html) |
 | 과제1 | 사람들은 왜 그 OTT를 선택할까? — 플랫폼별 이용 현황과 선택 배경 탐색 | [OTT 과제1](ott-choice-assignment/README.md) | [OTT 슬라이드덱](ott-choice-assignment/06_exports/ott-choice-2024.html) |
 
