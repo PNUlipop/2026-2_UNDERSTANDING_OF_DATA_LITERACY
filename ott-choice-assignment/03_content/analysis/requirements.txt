@@ -1,0 +1,6 @@
+manim==0.22.0
+seaborn==0.13.2
+matplotlib==3.11.2
+numpy==2.5.3
+pypdf==6.20.1
+pymupdf==1.28.2
